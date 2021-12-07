@@ -14,7 +14,7 @@ import static com.learnjava.util.LoggerUtil.log;
 
 public class ForkJoinUsingRecursion extends RecursiveTask<List<String>> {
 
-    private List<String> inputList;
+    private final List<String> inputList;
 
     public ForkJoinUsingRecursion(List<String> inputList) {
         this.inputList = inputList;
